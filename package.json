@@ -13,7 +13,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "lint": "eslint --ext .js,.vue --branch-master .gitignore .",
+    "lint": "eslint --ext .js,.vue --branch=master .gitignore .",
     "precommit": "npm run lint"
   },
   "devDependencies": {
